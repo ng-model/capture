@@ -4,8 +4,8 @@ import { HtmltopdfComponent } from './pdf/htmltopdf.component';
 
 
 const appRoutes: Routes = [
-    { path: '', redirectTo:'pdf',pathMatch:'full' },
-    { path: 'pdf', component: HtmltopdfComponent },
+    // { path: '', redirectTo:'pdf',pathMatch:'full' },
+    // { path: 'pdf', component: HtmltopdfComponent },
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

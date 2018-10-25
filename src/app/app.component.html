@@ -7,9 +7,9 @@
       <button class="btn btn-dark float-right" type="button" (click)="captureScreen()">Capture</button>
     </span>
     <!-- items being paged -->
-    <div class="card">
+    <div class="card" id="convert">
 
-      <div id="convert" class="card-body" *ngFor="let item of pagedItems">
+      <div class="card-body" *ngFor="let item of pagedItems">
         <span class="float-left">
           <img class="cstm-logo" src="assets/hotel.png" alt="logo">
           <h4>Motel 9</h4>
